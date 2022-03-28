@@ -201,6 +201,8 @@ namespace chooseYourOwnAdventureGame
             {
                 page = 1;
             }
+
+            DisplayPage();
         }
 
         private void option2Button_Click(object sender, EventArgs e)
@@ -270,6 +272,8 @@ namespace chooseYourOwnAdventureGame
             {
                 page = 30;
             }
+
+            DisplayPage();
         }
 
         private void option3Button_Click(object sender, EventArgs e)
@@ -289,10 +293,17 @@ namespace chooseYourOwnAdventureGame
                     page = 14;
                 }
             }
+
+            DisplayPage();
         }
 
         public void DisplayPage()
         {
+            option1Button.Visible = true;
+            option1Button.Enabled = true;
+            option2Button.Visible = true;
+            option2Button.Enabled = true;
+
             outputLabel.Text = "You are walking through a park at dawn. You see a sketchy guy and notice he begins to follow you.";
             option1Label.Text = "Speed up";
             option2Label.Text = "Call a friend";
@@ -512,6 +523,8 @@ namespace chooseYourOwnAdventureGame
                     outputLabel.Text = "You got a good ending. Play again?";
                     option1Label.Text = "Yes";
                     option2Label.Text = "No";
+                    option2Button.Visible = true;
+                    option2Button.Enabled = true;
                     break;
                 case 98:
                     outputLabel.Text = "You got a bad ending. Play again?";
