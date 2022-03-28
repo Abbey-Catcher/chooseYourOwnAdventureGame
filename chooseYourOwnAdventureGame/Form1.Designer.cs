@@ -51,7 +51,6 @@
             this.option1Button.Name = "option1Button";
             this.option1Button.Size = new System.Drawing.Size(75, 23);
             this.option1Button.TabIndex = 1;
-            this.option1Button.Text = "button1";
             this.option1Button.UseVisualStyleBackColor = true;
             this.option1Button.Click += new System.EventHandler(this.option1Button_Click);
             // 
@@ -61,7 +60,6 @@
             this.option2Button.Name = "option2Button";
             this.option2Button.Size = new System.Drawing.Size(75, 23);
             this.option2Button.TabIndex = 2;
-            this.option2Button.Text = "button2";
             this.option2Button.UseVisualStyleBackColor = true;
             this.option2Button.Click += new System.EventHandler(this.option2Button_Click);
             // 
@@ -71,7 +69,6 @@
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(75, 23);
             this.option3Button.TabIndex = 3;
-            this.option3Button.Text = "button3";
             this.option3Button.UseVisualStyleBackColor = true;
             this.option3Button.Visible = false;
             this.option3Button.Click += new System.EventHandler(this.option3Button_Click);
