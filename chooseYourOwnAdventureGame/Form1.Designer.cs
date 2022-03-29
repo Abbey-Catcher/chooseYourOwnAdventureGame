@@ -35,6 +35,8 @@
             this.option1Label = new System.Windows.Forms.Label();
             this.option2Label = new System.Windows.Forms.Label();
             this.option3Label = new System.Windows.Forms.Label();
+            this.imageBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // outputLabel
@@ -94,12 +96,22 @@
             this.option3Label.Size = new System.Drawing.Size(402, 54);
             this.option3Label.TabIndex = 6;
             // 
+            // imageBox
+            // 
+            this.imageBox.Location = new System.Drawing.Point(32, 191);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(512, 196);
+            this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageBox.TabIndex = 7;
+            this.imageBox.TabStop = false;
+            // 
             // chooseYourOwnAdventureGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(591, 615);
+            this.Controls.Add(this.imageBox);
             this.Controls.Add(this.option3Label);
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Label);
@@ -109,6 +121,7 @@
             this.Controls.Add(this.outputLabel);
             this.Name = "chooseYourOwnAdventureGame";
             this.Text = "Choose Your Own Adventure";
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -122,6 +135,7 @@
         private System.Windows.Forms.Label option1Label;
         private System.Windows.Forms.Label option2Label;
         private System.Windows.Forms.Label option3Label;
+        private System.Windows.Forms.PictureBox imageBox;
     }
 }
 

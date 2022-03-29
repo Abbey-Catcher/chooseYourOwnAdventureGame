@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page 1 %28park at dawn%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Page 2 Street Veiw.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseball-bat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Porch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-way-intersection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\road with houses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fists.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\someone opening door.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cell phone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone-call-failed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jogging.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbs up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbs down.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13597__weldonsmith__cricket2dopecho.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\320887__rhodesmas__win-04.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\253174__suntemple__retro-you-lose-sfx.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\617264__sheblum__aargh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45654__simon-lacelle__dun-dun-dun.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\266595__socializedartist45__baseball-hitting-bat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\419695__14fvaltrovat__long-horn.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175621__ondrosik__hangup10.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\556709__nachtmahrtv__knock-on-door.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\616821__trp__cell-phone-beep-2012.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\430708__juandamb__running.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
